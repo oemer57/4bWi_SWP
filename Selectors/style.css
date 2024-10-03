@@ -1,15 +1,15 @@
-.box{
-
-    background-color: aqua;
-    width: 30px;
-    height: 30px;
-    margin: 5px;
+div{
+    background-color: yellow;
 }
 
-.Container{
-    background-color: yellow;
-    display: flex;
-    height: 200px;
-    flex-direction: row-reverse;
-    align-items: flex-end;
+#header{
+    font-size: 3rem;   
+}
+
+.subtitle{
+    color: rgb(19, 19, 199);
+}
+
+#Text p {
+    background-color: rgb(65, 40, 8);
 }
