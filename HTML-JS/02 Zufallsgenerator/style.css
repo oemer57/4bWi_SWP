@@ -2,9 +2,16 @@ html{
     background-color: aqua;
 }
 
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 input{
     padding: 10px;
-    width: 100%;
+    width: 94%;
 }
 
 button{
@@ -12,13 +19,15 @@ button{
     padding: 10px;
 }
 
-.box{
-    display: flex;   
-}
 
 #output{
+    height: 50px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    background-color: white;
+    margin: 10px;
+    border: solid 3px black;
+
 }
