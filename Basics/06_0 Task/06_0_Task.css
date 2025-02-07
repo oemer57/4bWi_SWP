@@ -45,8 +45,6 @@
     right: 0;
     height: 50px;
     width: 50px;
-    flex-direction: row-reverse;
-    align-items: flex-end;
 }
 
 #Header{
