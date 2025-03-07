@@ -15,11 +15,11 @@ function LoadDatafromAPI()
         json.forEach(todo => {
             html.push("<div><div>" + 
                 todo.title + 
-                "</div><img width='100px' src='" +
+                "</div><img width='200px' src='" +
                 todo.image +
                 "?id=" +
                 Math.random() +
-                "'/> <div>--------</div></div>")
+                "'/> <div>--------------------------------------</div></div>")
         });
 
 
