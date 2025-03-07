@@ -11,7 +11,7 @@ function LoadFootballTable()
 
       for(let i = 0; i < json.length; i++)
       {
-        html += `<div data-teamId="${json[i].teamInfoId}>${json[i].teamName}</div>`;
+        html += `<div data-teamId="${json[i].teamInfoId}">${json[i].teamName}</div>`;
       }
       html += `</div>`
       document.getElementById("table").innerHTML = html; 
@@ -21,7 +21,7 @@ function LoadFootballTable()
 
 document.getElementById("table").addEventListener("click", (event)=>{
    let selectedTeamId = event.target.getAttribute("data-teamId");
-   console.log("selectTeamId",selectedTeamId);
+   console.log("selectedTeamId",selectedTeamId);
    GetNextMatch(selectedTeamId);
   });
 
@@ -32,8 +32,11 @@ function GetNextMatch(teamId)
     .then((json) => {
       console.log(json);
       let html = "<div id ='nextMatch'>";
-      html +=
-      
+      html += `<div>${json.matchDateTime}</div>`;
+
+      html+=`<div><img width="30px" src="${json.team1.teamIconUrl}"/>${json.team1.teamName} vs <img width="30px" src="${json.team2.teamIconUrl}"/>${json.team2.teamName} </div>`;
+      html += `</div>`
+      document.getElementById("nextMatch").innerHTML = html; 
     });
 }   
 
