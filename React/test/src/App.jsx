@@ -1,7 +1,8 @@
 import './App.css'
-import CardContainer from './components/CardContainer'
-import ListeContainer from './components/ListeContainer'
-import ButtonContainer from './components/ButtonContainer'
+import CardContainer from './components/CardTask/CardContainer'
+import ListeContainer from './components/ListTask/ListeContainer'
+import ButtonContainer from './components/ButtonTask/ButtonContainer'
+import PeopleContainer from './components/PeopleTask/PeopleContainer'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-        <ButtonContainer />
+        <PeopleContainer />
       </div>
     </>
   )

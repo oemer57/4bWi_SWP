@@ -9,6 +9,8 @@ export default function CardContainer() {
             <Card avatar="public/avatar.png" name={"John Doe"} jobtitle={"Architect & Engineer"} />
             <Card avatar="public/avatar.png" name={"John Doe"} jobtitle={"Architect & Engineer"} />
             <Card avatar="public/avatar.png" name={"John Doe"} jobtitle={"Architect & Engineer"} />
+            <Card avatar="public/avatar.png" name={"John Doe"} jobtitle={"Architect & Engineer"} />
+
 
         </div>
     )
