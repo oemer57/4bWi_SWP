@@ -1,4 +1,3 @@
-
 import './App.css'
 import PeopleContainer from './components/PeopleTask/PeopleContainer'
 
