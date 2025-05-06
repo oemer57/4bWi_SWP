@@ -5,8 +5,6 @@ import {
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import PeopleContainer from "./components/PeopleTask/PeopleContainer";
-import CardContainer from "./components/CardTask/CardContainer";
 import ButtonContainer from "./components/ButtonTask/ButtonContainer";
 import ListeContainer from "./components/ListTask/ListeContainer";
 import Links from "./components/Links";
